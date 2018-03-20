@@ -16,7 +16,7 @@ class Anagram
       split_word = @word.split(" ")
       if word_letters.sort == split_word.sort
         matches << word_x
-      else 
+      else
         nil
       end
     }
