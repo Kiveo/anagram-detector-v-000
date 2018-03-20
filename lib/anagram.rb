@@ -10,7 +10,7 @@ class Anagram
   def match(word_array)
     # @word_array = word array
     word_array.split(" ")
-    binding.pry
+    
   end
 
 end
