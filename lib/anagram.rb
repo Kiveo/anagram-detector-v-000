@@ -17,7 +17,7 @@ class Anagram
   #   }
   #   matches
   # end
-  def match(word_array)
+  def self.match(word_array)
     []
   end
 
