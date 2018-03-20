@@ -11,13 +11,9 @@ class Anagram
   def match(word_array)
     # @word_array = word array
     matches = []
-    word_array.each { |word_x|
-      word_letters = word_x.split(" ")
-      split_word = @word.split(" ")
-      if word_letters.sort == split_word.sort
-        matches << word_x
-      else
-        nil
+    word_array.each { |word|
+      if word.split(" ").sort == @word.split(" ").sort
+        matches << word
       end
     }
     matches
