@@ -11,3 +11,5 @@ class Anagram
     word_array.split(" ")
     binding.pry
   end
+
+end
