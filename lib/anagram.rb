@@ -14,10 +14,10 @@ class Anagram
     word_array.each { |word|
       if word.split(" ").sort == @word.split(" ").sort
         matches << word
-        binding.pry
       end
     }
     matches
+    binding.pry
   end
 
 end
