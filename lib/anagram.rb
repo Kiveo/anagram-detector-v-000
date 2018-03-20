@@ -2,6 +2,7 @@ require 'pry'
 # Your code goes here!
 class Anagram
   attr_accessor :word
+  attr_accessor :word_array
 
   def initialize
     @word  = word
@@ -18,6 +19,7 @@ class Anagram
   #   matches
   # end
   def self.match(word_array)
+    @word_array = word_array
     []
   end
 
