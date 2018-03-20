@@ -3,7 +3,7 @@ require 'pry'
 class Anagram
   attr_accessor :word
   @@word_array = []
-  
+
   def initialize
     @word  = word
   end
