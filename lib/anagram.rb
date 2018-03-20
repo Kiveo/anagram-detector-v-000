@@ -17,6 +17,7 @@ class Anagram
       end
     }
     matches
+    binding.pry
   end
 
 end
